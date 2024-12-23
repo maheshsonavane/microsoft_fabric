@@ -17,5 +17,3 @@
         - Fabric Administrator
     - Ensure this user is added as Owner to subscription IAM role assignment
     - Sign up for free trial using this user. 
-
-
