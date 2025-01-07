@@ -20,18 +20,25 @@
     - Sign up for free trial using this user. 
 6. Deployment Patterns
 
-Workspace Roles
-    Security Model: Admin -> Member -> Contributor -> Viewer
+# Workspace Roles
 
-Lakehouse
-    SQL Analytics endpoint connection string can be used in SSMS locally or we can use web UI as well to run adhoc analysis.
-    Default Semantic Model
-    Onelake File Explorer (Software to use on local machine)
+Security Model : Admin -> Member -> Contributor -> Viewer
 
-Data Factory
-    Ways to load data:
-        1. Local file/folder upload
-        2. Copy tool in pipelines --> Data Factory
-        3. Dataflow Gen2 --> Data Factory 
-        4. Notebooks (We use this)
-        5. Shortcut
+# Lakehouse
+
+- SQL Analytics endpoint connection string can be used in SSMS locally or we can use web UI as well to run adhoc analysis.
+- Default Semantic Model
+- Onelake File Explorer (Software to use on local machine)
+
+# Data Factory
+- Ways to load data:
+    - Local file/folder upload
+    - Copy tool in pipelines --> Data Factory
+    - Dataflow Gen2 --> Data Factory 
+    - Notebooks (We use this)
+    - Shortcut
+
+- Data Gateway Types:
+    - On-Premise: 
+    - V-Net: 
+
